@@ -12,5 +12,4 @@ public class Part2 {
 		System.out.println("Addition of numbers = " + sum);
 		}
     }
-	
 }
