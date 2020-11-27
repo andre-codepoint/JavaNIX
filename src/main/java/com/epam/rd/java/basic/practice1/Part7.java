@@ -1,6 +1,7 @@
 package com.epam.rd.java.basic.practice1;
 
-public static String alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+public class Part7 {
+	public static String alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
 	public static void main(String[] args) {
     	    	//System.out.println(str2int("ZZ"));
