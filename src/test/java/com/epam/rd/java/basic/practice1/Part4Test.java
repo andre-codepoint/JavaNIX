@@ -17,8 +17,7 @@ public class Part4Test {
 				else
 					num2 = num2 - num1;
 			}
-			System.out.printf("Greatest common divisor is: %d", num2);
-		} else
-			System.out.println("It should be two number according to the task");
+			System.out.print(num2);
+		} 
 	}
 }

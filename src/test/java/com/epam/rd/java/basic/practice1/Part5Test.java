@@ -16,7 +16,7 @@ public class Part5Test {
 				sum = sum + n % 10;
 				n = n / 10;
 			}
-			System.out.printf("Sum the digits of number %d = %d", num, sum);
+			System.out.print(sum);
 		}
 	}
 }

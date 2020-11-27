@@ -24,8 +24,7 @@ public class Part6Test {
 					primeNumbers = primeNumbers + i + " ";
 				}
 			}
-			System.out.printf("Prime numbers from 1 to %d are :", lim);
-			System.out.println(primeNumbers);
+			System.out.print(primeNumbers);
 		}
 	}
 }

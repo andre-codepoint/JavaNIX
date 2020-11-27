@@ -1,6 +1,7 @@
 package com.epam.rd.java.basic.practice1;
 
-public class Part2Test {
+public class Part2 {
+
     public static void main(String[] args) {
     	/*
     	 * Write a class that implements functionality of addition 
@@ -13,7 +14,7 @@ public class Part2Test {
 		{ 
 		sum = sum + Integer.parseInt(args[i]);
 		}
-		System.out.println("Addition of numbers = " + sum);
+		System.out.print(sum);
 		}
     }
 }
