@@ -1,11 +1,6 @@
 package com.epam.rd.java.basic.practice1;
-
-
-
 public class Demo {
-
 	public static void main(String[] args) {
-		 
 		Part1.main(null);
         Part2.main(args);
         Part3.main(args);
@@ -13,7 +8,5 @@ public class Demo {
         Part5.main(args);
         Part6.main(args);
         Part7.main(null);
-
 	}
-
 }
