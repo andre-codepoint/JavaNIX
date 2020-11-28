@@ -6,12 +6,12 @@ public class Demo {
 
 	public static void main(String[] args) {
 		 
-		Part1.main(null);
-        Part2.main(args);
-        Part3.main(args);
-        Part4.main(args);
-        Part5.main(args);
-        Part6.main(args);
+		Part1.main(args);
+        Part2.main( new String[]{"2", "5"});
+        Part3.main(new String[]{"1", "2", "3"});
+        Part4.main(new String[]{"23", "33"});
+        Part5.main(new String[]{"45678"});
+        Part6.main(new String[]{"2", "5", "1", "4"});
         Part7.main(null);
 
 	}
