@@ -14,7 +14,7 @@ public class Part3 {
 				if (i>0) sum = sum + " ";
 				sum = sum + args[i];
 			}
-			System.out.println(sum);
+			System.out.print(sum);
 		}
     }
 	

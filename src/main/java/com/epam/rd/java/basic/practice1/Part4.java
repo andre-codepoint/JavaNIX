@@ -1,7 +1,7 @@
 package com.epam.rd.java.basic.practice1;
 
 public class Part4 {
-    /*
+	/*
 	 * Write a class that implements functionality of defining the greatest common
 	 * divisor of two whole positive numbers passed to the application as the
 	 * command line parameters.
@@ -17,8 +17,7 @@ public class Part4 {
 				else
 					num2 = num2 - num1;
 			}
-			System.out.printf("Greatest common divisor is: %d", num2);
-		} else
-			System.out.println("It should be two number according to the task");
+			System.out.print(num2);
+		} 
 	}
 }

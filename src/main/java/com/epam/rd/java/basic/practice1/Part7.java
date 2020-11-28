@@ -16,7 +16,6 @@ public class Part7 {
     	{
     		int p=pow(alph.length(),i);
     		int ind = alph.indexOf(number.charAt(n-i-1))+1;
-    		//System.out.println(alph.length()+"^"+i+"="+p+"*"+ind);
     		res = res + p*ind;
     		i = i+1;
     	}
