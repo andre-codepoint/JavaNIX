@@ -1,13 +1,19 @@
 package com.epam.rd.java.basic.practice1;
 
 public class Part7 {
-	public static String alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String ARROW = " ==> ";
+    public static String alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
 	public static void main(String[] args) {
 
 	            //System.out.println(str2int("ZZ"));
     	    	//System.out.println(int2str(703));
     	    	//System.out.println(rightColumn("ZZ"));
+        System.out.println("A" + ARROW + str2int("A") + ARROW + int2str(str2int("A")));
+        System.out.println("B" + ARROW + str2int("B") + ARROW + int2str(str2int("B")));
+        System.out.println("Z" + ARROW + str2int("Z") + ARROW + int2str(str2int("Z")));
+        System.out.println("AA" + ARROW + str2int("AA") + ARROW + int2str(str2int("AA")));
+        System.out.println("AZ" + ARROW + str2int("AZ") + ARROW + int2str(str2int("AZ")));
     }
     public static int str2int(String number) {
     	int n = number.length();
@@ -35,16 +41,16 @@ public class Part7 {
     {     
         int dividend = columnNumber;   
         int i;
-        String columnName = "";     
+        StringBuilder columnName = new StringBuilder();
         int modulo;     
         while (dividend > 0)     
         {        
             modulo = (dividend - 1) % 26;         
             i = 65 + modulo;
-            columnName = Character.toString((char) i) + columnName;
+            columnName.insert(0, (char) i);
             dividend = (int)((dividend - modulo) / 26);    
         }       
-        return columnName; 
+        return columnName.toString();
     }
 
     public static String rightColumn(String number) {
