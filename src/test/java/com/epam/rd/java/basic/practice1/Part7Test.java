@@ -7,6 +7,11 @@ public class Part7Test {
     	    	//System.out.println(str2int("ZZ"));
     	    	//System.out.println(int2str(703));
     	    	//System.out.println(rightColumn("ZZ"));
+        System.out.println("A" + ARROW + str2int("A") + ARROW + int2str(str2int("A")));
+        System.out.println("B" + ARROW + str2int("B") + ARROW + int2str(str2int("B")));
+        System.out.println("Z" + ARROW + str2int("Z") + ARROW + int2str(str2int("Z")));
+        System.out.println("AA" + ARROW + str2int("AA") + ARROW + int2str(str2int("AA")));
+        System.out.println("AZ" + ARROW + str2int("AZ") + ARROW + int2str(str2int("AZ")));
     }
     public static int str2int(String number) {
     	int n = number.length();
