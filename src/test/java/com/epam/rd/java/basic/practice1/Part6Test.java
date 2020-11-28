@@ -12,7 +12,7 @@ public class Part6Test {
 
 			int i = 0;
 			int num = 0;
-			String primeNumbers = "";
+			StringBuilder  primeNumbers = new StringBuilder();
 			for (i = 1; i <= lim; i++) {
 				int counter = 0;
 				for (num = i; num >= 1; num--) {
@@ -21,7 +21,8 @@ public class Part6Test {
 					}
 				}
 				if (counter == 2) {
-					primeNumbers = primeNumbers + i + " ";
+					primeNumbers.append(i);
+					primeNumbers.append(" ");
 				}
 			}
 			System.out.print(primeNumbers);
