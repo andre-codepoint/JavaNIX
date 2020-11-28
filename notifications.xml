@@ -1,0 +1,18 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Dependencies from package.json" displayType="STICKY_BALLOON" />
+    <notification groupId="Dynamic plugin installation" />
+    <notification groupId="Find in Path" displayType="TOOL_WINDOW" />
+    <notification groupId="Find Problems" displayType="STICKY_BALLOON" />
+    <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" />
+    <notification groupId="FTP/SFTP Connectivity: Remote Host" displayType="TOOL_WINDOW" />
+    <notification groupId="http.generation.notifications" displayType="STICKY_BALLOON" />
+    <notification groupId="Indexing" />
+    <notification groupId="Plugins AutoSwitch" />
+    <notification groupId="Plugins updates" displayType="STICKY_BALLOON" />
+    <notification groupId="Profiling" />
+    <notification groupId="Run Dashboard" displayType="STICKY_BALLOON" />
+    <notification groupId="Test Results: Run" displayType="NONE" />
+  </component>
+</application>
