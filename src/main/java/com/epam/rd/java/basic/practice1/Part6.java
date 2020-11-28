@@ -8,7 +8,7 @@ public class Part6 {
 		 * ascending sequence of prime numbers (2, 3, 5, 7 …). The n number should be
 		 * passed as the command line parameter.
 		 */
-		if (args.length > 0) {
+		
 			int lim = Integer.parseInt(args[0]);
 
 			int i = 0;
@@ -27,6 +27,6 @@ public class Part6 {
 				}
 			}
 			System.out.print(primeNumbers);
-		}
+		
 	}
 }

@@ -9,15 +9,14 @@ public class Part5 {
 		 * parameter.
 		 */
 		int sum = 0;
-		if (args.length > 0) {
-			int num = Integer.parseInt(args[0]);
-			int n = num;
+		int num = Integer.parseInt(args[0]);
+		int n = num;
 
-			while (n != 0) {
-				sum = sum + n % 10;
-				n = n / 10;
-			}
-			System.out.print(sum);
+		while (n != 0) {
+			sum = sum + n % 10;
+			n = n / 10;
 		}
+		System.out.print(sum);
+
 	}
 }

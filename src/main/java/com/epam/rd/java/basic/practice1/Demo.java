@@ -11,7 +11,7 @@ public class Demo {
         Part3.main(new String[]{"1", "2", "3"});
         Part4.main(new String[]{"23", "33"});
         Part5.main(new String[]{"45678"});
-        Part6.main(new String[]{"2", "5", "1", "4"});
+        Part6.main(new String[]{"46"});
         Part7.main(null);
 
 	}
