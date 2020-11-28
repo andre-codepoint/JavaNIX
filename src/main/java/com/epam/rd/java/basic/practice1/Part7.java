@@ -4,7 +4,8 @@ public class Part7 {
 	public static String alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
 	public static void main(String[] args) {
-    	    	//System.out.println(str2int("ZZ"));
+
+	            //System.out.println(str2int("ZZ"));
     	    	//System.out.println(int2str(703));
     	    	//System.out.println(rightColumn("ZZ"));
     }
@@ -40,7 +41,7 @@ public class Part7 {
         {        
             modulo = (dividend - 1) % 26;         
             i = 65 + modulo;
-            columnName = new Character((char)i).toString() + columnName;        
+            columnName = Character.toString((char) i) + columnName;
             dividend = (int)((dividend - modulo) / 26);    
         }       
         return columnName; 

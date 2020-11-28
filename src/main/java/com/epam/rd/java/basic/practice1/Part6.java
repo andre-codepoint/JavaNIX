@@ -3,12 +3,7 @@ package com.epam.rd.java.basic.practice1;
 public class Part6 {
 
 	public static void main(String[] args) {
-		/*
-		 * Write a class that creates an array from n elements and fills it with an
-		 * ascending sequence of prime numbers (2, 3, 5, 7 …). The n number should be
-		 * passed as the command line parameter.
-		 */
-		
+
 			int lim = Integer.parseInt(args[0]);
 
 			int i = 0;

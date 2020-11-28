@@ -1,11 +1,7 @@
 package com.epam.rd.java.basic.practice1;
 
 public class Part4 {
-	/*
-	 * Write a class that implements functionality of defining the greatest common
-	 * divisor of two whole positive numbers passed to the application as the
-	 * command line parameters.
-	 */
+
 	public static void main(String[] args) {
 		if (args.length == 2) {
 			int num1 = Integer.parseInt(args[0]);
