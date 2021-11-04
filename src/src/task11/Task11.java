@@ -28,7 +28,6 @@ public class Task11 {
                     System.out.print(w+" ");
                     ++w;
                 }
-
                 System.out.println();
             }
         }
