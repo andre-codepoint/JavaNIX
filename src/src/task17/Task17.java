@@ -29,7 +29,7 @@ public class Task17 {
                             eq = true;
                         }
                         else
-                            System.out.print(", " + mas1[i]);
+                             System.out.print(", " + mas1[i]);
 
                     }
                 }
