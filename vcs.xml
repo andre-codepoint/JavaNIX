@@ -82,6 +82,10 @@
           <option name="url" value="https://gitlab.com/snsncps/spiral.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/snsncps/transpose-matrix.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\EPAM\EPAM JAVA 2021-2022 Autumn-Winter" />
