@@ -94,6 +94,10 @@
           <option name="url" value="https://gitlab.com/snsncps/line-intersection.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/snsncps/segments.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\EPAM\EPAM JAVA 2021-2022 Autumn-Winter" />
