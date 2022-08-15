@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'HW'" />
-    <option name="defaultScopeName" value="Project 'HW'" />
+    <option name="customScope" value="Project 'NixALevel2022'" />
+    <option name="defaultScopeName" value="Project 'NixALevel2022'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'HW'" />
+    <option name="SEARCH_SCOPE" value="Project 'NixALevel2022'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
