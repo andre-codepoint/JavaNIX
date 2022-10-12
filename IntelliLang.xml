@@ -1,0 +1,9 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="Dockerfile" injector-id="xml">
+      <display-name>version</display-name>
+      <single-file value="false" />
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("version")).withNamespace(string().equalTo("http://maven.apache.org/POM/4.0.0"))]]></place>
+    </injection>
+  </component>
+</application>
