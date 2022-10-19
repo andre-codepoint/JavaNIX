@@ -1,4 +1,7 @@
 <application>
+  <component name="ComposeFilesSynchronizedWithServiceView">
+    <option value="file://D:/Nix/NixALevel/ubike-main/ubike-main/docker-compose.yml" />
+  </component>
   <component name="DockerSettings">
     <option name="dockerComposePath" value="C:\Program Files\Docker\Docker\resources\bin\docker-compose.exe" />
     <option name="dockerMachinePath" value="" />
