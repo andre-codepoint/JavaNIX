@@ -8,7 +8,13 @@
       <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.47" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" channel="fixed" rolling="false" use="true" version="42.5.0" />
+      <url-template name="default" template="jdbc:postgresql://\[{host:ipv6:\:\:1}\][:{port::5432}][/{database:database/[^?]+:postgres}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" disable="true" />
+      <url-template name="default" template="jdbc:postgresql://[{host::localhost}[:{port::5432}]][/{database:database/[^?]+:postgres}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" disable="true" />
+      <url-template name="default" template="jdbc:postgresql://[{host::localhost}[:{port::5433}]][/{database:database/[^?]+:postgres}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="default" template="jdbc:postgresql://\[{host:ipv6:\:\:1}\][:{port::5433}][/{database:database/[^?]+:postgres}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.5.0" />
     </driver>
+    <driver id="java.sql.Driver" name="User Driver" driver-class="java.sql.Driver" />
+    <driver id="f79ef934-9cda-44d1-af3e-47c9560d539f" name="User Driver [2]" driver-class="java.sql.Driver" />
   </component>
 </application>
